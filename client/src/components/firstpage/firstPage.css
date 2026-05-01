@@ -1,0 +1,105 @@
+
+.container {
+  min-height: 100vh;
+  background:#212121;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+    font-family: Vesterbro, Times, serif;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    font-weight:700;
+ 
+}
+
+/* Title */
+.title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 3.7rem;
+}
+
+/* Textarea */
+.textarea {
+width: 40rem;
+  height: 10rem;
+  padding: 1rem 2rem;
+  
+  
+  margin-bottom: 25px;
+  outline: none;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  resize:none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  background-color: #303030;
+  color: white;
+}
+
+/* Button */
+.button {
+  padding: 10px 40px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  font-size:1.2rem;
+  margin:1rem;
+}
+
+.button:hover {
+  background: #212121;
+  color:white;
+  border:1px solid white;
+}
+
+/* Loading text */
+.loading {
+  font-style: italic;
+}
+
+/* Result card */
+.card {
+padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  height: 30%;
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #c5e7e4;
+  border: 1px solid #746d6d;
+}
+
+/* Role highlight */
+.role {
+  color: blue;
+}
+
+/* Analysis text */
+.analysis {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Metrics section */
+.metrics {
+  margin-top: 10px;
+}
+
+/* Status text */
+.status {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Error */
+.error {
+  color: red;
+}
