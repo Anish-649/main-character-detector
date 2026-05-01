@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import "./FirstPage.css";
+import "./firstPage.css";
 
 function FirstPage() {
   const [text, setText] = useState("");
